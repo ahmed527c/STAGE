@@ -1,3 +1,6 @@
+ Ce projet a été généré avec Angular CLI version 16.2.16.
+
+
 # Description du projet
 
 Ce projet est une plateforme **e-commerce de sécurité** conçue pour vendre des produits liés à la sécurité (caméras, alarmes, etc.).
