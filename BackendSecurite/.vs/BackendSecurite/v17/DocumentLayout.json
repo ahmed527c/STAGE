@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\i3ck453e..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\2xsjs1y0..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\controllers\\paniercontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\controllers\\paniercontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\aw4zacpc..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\controllers\\servicerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\controllers\\servicerequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\wrcco1bp..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\models\\panieritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\models\\panieritem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\models\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\models\\servicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\4e0shvyx..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\migrations\\20250726180731_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\migrations\\20250726180731_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\1dvlvazc..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.PanierItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\42xecxej..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\2r41z4vq..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\migrations\\20250727123139_ajoutpanierarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\migrations\\20250727123139_ajoutpanierarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.Articles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\0xwcfh0y..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.Utilisateurs.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726172732_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.ServiceRequests.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Controllers\\ProduitsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726031539_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726031400_InitAllTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.Produits.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250725140050_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\backendsecurite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\backendsecurite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726035204_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|c:\\users\\user\\downloads\\stage-main\\stage-main\\backendsecurite\\backendsecurite\\migrations\\20250726231225_addroletoutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05ABB915-CAC5-4229-B371-6176C12DE95C}|BackendSecurite\\BackendSecurite.csproj|solutionrelative:backendsecurite\\migrations\\20250726231225_addroletoutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Controllers\\PanierController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Models\\PanierArticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "i3ck453e..sql",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\i3ck453e..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\i3ck453e..sql",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\i3ck453e..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\i3ck453e..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-12T16:36:32.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "2xsjs1y0..sql",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\2xsjs1y0..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\2xsjs1y0..sql",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\2xsjs1y0..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\2xsjs1y0..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-07T01:19:03.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "aw4zacpc..sql",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\aw4zacpc..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\aw4zacpc..sql",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\aw4zacpc..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\aw4zacpc..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-06T01:18:35.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "wrcco1bp..sql",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\wrcco1bp..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\wrcco1bp..sql",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\wrcco1bp..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\wrcco1bp..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-06T01:01:41.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "4e0shvyx..sql",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\4e0shvyx..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\4e0shvyx..sql",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\4e0shvyx..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\4e0shvyx..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-06T00:39:52.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Controllers\\ServiceRequestsController.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Controllers\\ServiceRequestsController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Controllers\\ServiceRequestsController.cs",
+              "RelativeToolTip": "BackendSecurite\\Controllers\\ServiceRequestsController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T16:49:47.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "1dvlvazc..sql",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\1dvlvazc..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\1dvlvazc..sql",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\1dvlvazc..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\1dvlvazc..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-31T14:56:19.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "42xecxej..sql",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\42xecxej..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\42xecxej..sql",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\42xecxej..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\42xecxej..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-31T14:40:22.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "dbo.PanierItems.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.PanierItems.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.PanierItems.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-31T14:24:47.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PanierItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Models\\PanierItem.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Models\\PanierItem.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Models\\PanierItem.cs",
+              "RelativeToolTip": "BackendSecurite\\Models\\PanierItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T14:12:47.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "2r41z4vq..sql",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\2r41z4vq..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\2r41z4vq..sql",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\2r41z4vq..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\2r41z4vq..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-29T16:41:20.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UtilisateursController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Controllers\\UtilisateursController.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Controllers\\UtilisateursController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Controllers\\UtilisateursController.cs",
+              "RelativeToolTip": "BackendSecurite\\Controllers\\UtilisateursController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T12:27:52.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PanierController .cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Controllers\\PanierController .cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Controllers\\PanierController .cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Controllers\\PanierController .cs",
+              "RelativeToolTip": "BackendSecurite\\Controllers\\PanierController .cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwHIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T12:26:27.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArticlesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Controllers\\ArticlesController.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Controllers\\ArticlesController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Controllers\\ArticlesController.cs",
+              "RelativeToolTip": "BackendSecurite\\Controllers\\ArticlesController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T12:24:15.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250727123139_AjoutPanierArticle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Migrations\\20250727123139_AjoutPanierArticle.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Migrations\\20250727123139_AjoutPanierArticle.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Migrations\\20250727123139_AjoutPanierArticle.cs",
+              "RelativeToolTip": "BackendSecurite\\Migrations\\20250727123139_AjoutPanierArticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:31:39.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PanierController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Controllers\\PanierController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Controllers\\PanierController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Controllers\\PanierController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Controllers\\PanierController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAswEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:26:25.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PanierArticle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Models\\PanierArticle.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Models\\PanierArticle.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Models\\PanierArticle.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Models\\PanierArticle.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA+wCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:25:07.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dbo.Articles.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.Articles.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.Articles.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-27T11:30:48.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "0xwcfh0y..sql",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\0xwcfh0y..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\0xwcfh0y..sql",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\0xwcfh0y..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\0xwcfh0y..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-27T11:17:29.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "dbo.Utilisateurs.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.Utilisateurs.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.Utilisateurs.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-26T23:12:49.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250726231225_AddRoleToUtilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Migrations\\20250726231225_AddRoleToUtilisateur.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Migrations\\20250726231225_AddRoleToUtilisateur.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Migrations\\20250726231225_AddRoleToUtilisateur.cs",
+              "RelativeToolTip": "BackendSecurite\\Migrations\\20250726231225_AddRoleToUtilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T23:12:26.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-26T18:09:16.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250726180731_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Migrations\\20250726180731_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Migrations\\20250726180731_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Migrations\\20250726180731_InitialCreate.cs",
+              "RelativeToolTip": "BackendSecurite\\Migrations\\20250726180731_InitialCreate.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T18:07:31.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250726172732_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726172732_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726172732_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726172732_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726172732_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:27:32.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "article.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Models\\article.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Models\\article.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Models\\article.cs",
+              "RelativeToolTip": "BackendSecurite\\Models\\article.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:16:40.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "dbo.ServiceRequests.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.ServiceRequests.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.ServiceRequests.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-26T16:48:08.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250726035204_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726035204_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726035204_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726035204_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726035204_InitialCreate.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T03:52:04.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250726031539_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726031539_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726031539_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726031539_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726031539_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T03:15:40.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250726031400_InitAllTables.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726031400_InitAllTables.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726031400_InitAllTables.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726031400_InitAllTables.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250726031400_InitAllTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T03:14:00.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServiceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Models\\ServiceRequest.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Models\\ServiceRequest.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Models\\ServiceRequest.cs",
+              "RelativeToolTip": "BackendSecurite\\Models\\ServiceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T02:14:47.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "BackendSecurite\\Models\\Utilisateur.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T17:45:26.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "dbo.Produits.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.Produits.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SecurityShopDb/True/SqlTable/dbo.Produits.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-25T17:42:55.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProduitsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Controllers\\ProduitsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Controllers\\ProduitsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Controllers\\ProduitsController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Controllers\\ProduitsController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T17:32:29.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BackendSecurite\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T16:54:01.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250725140050_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250725140050_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250725140050_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250725140050_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\BackendSecurite\\BackendSecurite\\Migrations\\20250725140050_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T14:00:50.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Program.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Program.cs",
+              "RelativeToolTip": "BackendSecurite\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:57:26.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\appsettings.json",
+              "RelativeDocumentMoniker": "BackendSecurite\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\appsettings.json",
+              "RelativeToolTip": "BackendSecurite\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T13:57:03.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Data\\DbContext.cs",
+              "RelativeDocumentMoniker": "BackendSecurite\\Data\\DbContext.cs",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\Data\\DbContext.cs",
+              "RelativeToolTip": "BackendSecurite\\Data\\DbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:56:48.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BackendSecurite.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\BackendSecurite.csproj",
+              "RelativeDocumentMoniker": "BackendSecurite\\BackendSecurite.csproj",
+              "ToolTip": "C:\\Users\\user\\Downloads\\STAGE-main\\STAGE-main\\BackendSecurite\\BackendSecurite\\BackendSecurite.csproj",
+              "RelativeToolTip": "BackendSecurite\\BackendSecurite.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-25T13:55:41.361Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

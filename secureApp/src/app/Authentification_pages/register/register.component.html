@@ -1,0 +1,54 @@
+<div class="login-background">
+  <div class="login-container">
+    <h2>Créer un compte</h2>
+
+    <form (ngSubmit)="onSubmit()" #registerForm="ngForm" novalidate>
+      <input
+        [(ngModel)]="nom"
+        name="nom"
+        required
+        placeholder="Nom"
+        #nomInput="ngModel"
+      />
+      <div *ngIf="nomInput.invalid && (nomInput.dirty || nomInput.touched)" class="error">
+        <small *ngIf="nomInput.errors?.['required']">Le nom est requis.</small>
+      </div>
+
+      <input
+        [(ngModel)]="email"
+        name="email"
+        required
+        email
+        placeholder="Email"
+        type="email"
+        #emailInput="ngModel"
+      />
+      <div *ngIf="emailInput.invalid && (emailInput.dirty || emailInput.touched)" class="error">
+        <small *ngIf="emailInput.errors?.['required']">L'email est requis.</small>
+        <small *ngIf="emailInput.errors?.['email']">L'email n'est pas valide.</small>
+      </div>
+
+      <input
+        [(ngModel)]="password"
+        name="password"
+        required
+        placeholder="Mot de passe"
+        type="password"
+        #passwordInput="ngModel"
+      />
+      <div *ngIf="passwordInput.invalid && (passwordInput.dirty || passwordInput.touched)" class="error">
+        <small *ngIf="passwordInput.errors?.['required']">Le mot de passe est requis.</small>
+      </div>
+
+      <button type="submit" [disabled]="registerForm.invalid">S'inscrire</button>
+    </form>
+
+    <p *ngIf="success" class="success">{{ success }}</p>
+    <p *ngIf="erreur" class="error">{{ erreur }}</p>
+
+    <p class="register-link">
+      Vous avez déjà un compte ?
+      <a routerLink="/login">Se connecter</a>
+    </p>
+  </div>
+</div>

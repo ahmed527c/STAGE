@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "NYkTXKI2syQkPUnKRm33qtQMVccBv2ay4mJTPfEJAZg=",
+  "Source": "BackendSecurite",
+  "BasePath": "_content/BackendSecurite",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

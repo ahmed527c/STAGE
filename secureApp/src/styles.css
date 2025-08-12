@@ -1,0 +1,29 @@
+
+.services-section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+
+.S::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: #005bb5;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+.S {
+  font-weight: 800;
+  font-size: 2.8rem;
+  color: #2c3e50;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+

@@ -1,0 +1,89 @@
+/* Conteneur principal */
+ul {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0;
+  list-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Chaque demande : card simple */
+li {
+  background-color: #f9f9f9;
+  border-left: 5px solid #676767;
+  border-radius: 8px;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 6px rgba(108, 99, 255, 0.15);
+  position: relative;
+  transition: box-shadow 0.3s ease;
+  min-height: 70px; 
+  display: flex;
+  flex-direction: column;
+}
+
+li:hover {
+  box-shadow: 0 4px 15px rgba(108, 99, 255, 0.3);
+}
+
+/* Titre (nom) */
+li strong {
+  font-size: 1.3rem;
+  color: #3a3a3a;
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+
+/* Détails */
+li span {
+  display: block;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 3px 0;
+}
+
+/* Conteneur des boutons */
+.button-group {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Boutons style commun */
+button {
+  background-color: #0082B1;
+  border: none;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(108, 99, 255, 0.35);
+  transition: background-color 0.3s ease;
+}
+
+
+.btn-afficher
+{
+    background-color: #0082B1;
+}
+
+.btn-afficher:hover {
+  background-color: #0056b3;
+}
+
+
+.btn-supprimer
+{
+  background-color: #E14D4D;
+}
+
+.btn-supprimer:hover
+{
+   background-color: #b91c1c;
+
+}

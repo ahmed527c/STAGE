@@ -1,0 +1,234 @@
+/* Import d'une belle police */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Section globale */
+.services-section-zigzag {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.services-section-zigzag h2 {
+   font-weight: 800;
+  font-size: 2.8rem;
+  color: #2c3e50;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Grille des cartes */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Carte produit */
+.carte {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  width: 280px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  /* Alignement flex colonne et hauteur fixe */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 480px; /* hauteur fixe identique */
+}
+
+.carte:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Image */
+.carte img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Titre et sous-titre */
+.carte h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 6px;
+  color: #1a1a1a;
+}
+
+.type {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+/* Prix */
+.prix {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.prix .avant {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 6px;
+}
+
+.prix .apres {
+  color: #d63031;
+  font-weight: 900;
+  font-size: larger;
+  
+}
+
+/* Quantité restante - style badge */
+.quantite {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: #218c74;
+  color: white;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Input + bouton achat */
+.achat-zone {
+  margin-top: auto; /* pousse vers le bas */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Input nombre */
+.input-quantite {
+  width: 60px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Bouton achat */
+.buy-btn {
+  flex: 1;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  font-family: 'Poppins', sans-serif;
+}
+
+.buy-btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #005bb5, #00408a);
+}
+
+.buy-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+.select-filtre {
+  margin-bottom: 20px;
+}
+
+.select-filtre label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.select-filtre select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  min-width: 200px;
+}
+/* ✅ Positionner le filtre à gauche */
+.select-filtre {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+  margin: 0 auto 30px 0; /* 30px en bas, aligné à gauche */
+  padding-left: 20px;     /* petit décalage intérieur */
+  max-width: 100%;
+  width: fit-content;     /* prend uniquement la place du contenu */
+  text-align: left;
+}
+.search-container {
+  display: flex;
+  justify-content: center;   /* Centre horizontalement */
+  align-items: center;       /* Aligne verticalement */
+  gap: 0px;                 /* Espace entre l’input et le bouton */
+  padding-left: 700px;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 20px;
+
+}
+
+.search-container input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  transition: border-color 0.3s ease;
+}
+
+.search-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.search-container button {
+  padding: 10px 15px;
+  background-color: #0082B1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+.search-container i {
+  font-size: 1rem;
+}
+.S {
+  font-weight: 800;
+  font-size: 2.8rem;
+  color: #2c3e50;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}

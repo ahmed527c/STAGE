@@ -1,0 +1,168 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background-color: #ffffff; 
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+  height: 70px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+/* Logo container */
+.logo {
+  display: flex;
+  align-items: center;
+  height: 80px;
+    margin-left: -40px;
+    margin-top: 20px; 
+
+}
+
+.logo img {
+  height: 180px;
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+ 
+}
+
+.logo img:hover,
+.admin-photo:hover,
+.notif-btn:hover svg,
+.cart-btn:hover svg {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 5px rgba(37, 99, 235, 0.7)); 
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+.nav-links li a:hover,
+.nav-links li a:focus,
+.nav-links li a.active {
+  color: #1D4ED8;
+  border-bottom: 3px solid #1D4ED8;
+  outline: none;
+}
+
+
+
+
+/* Icon buttons */
+.nav-actions button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding: 0.25rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.admin-photo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1f2937; 
+  transition: transform 0.3s ease;
+}
+
+.admin-photo:hover {
+  transform: scale(1.1);
+}
+
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.admin-photo {
+  width: 32px;
+  height: 32px;
+}
+
+.notif-btn {
+  position: relative;
+}
+.notif-text {
+  position: absolute;
+  top: -5px;
+  right: 2;
+  background-color: #ff0000; 
+  color: white;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 14px;
+  user-select: none;
+}
+
+
+.tooltip-text {
+  visibility: hidden;
+  width: 90px;
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  top: 50%;
+  right: 110%;   
+  transform: translateY(-50%);
+
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.deconnexion-btn:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

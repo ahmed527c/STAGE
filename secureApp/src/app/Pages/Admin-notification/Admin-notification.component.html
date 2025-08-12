@@ -1,0 +1,34 @@
+<app-navbar></app-navbar>
+
+
+<ul *ngIf="demandes.length > 0; else noDemandes">
+<li *ngFor="let demande of demandes; let i = index">
+  <strong>{{ demande.nom }}</strong> - {{ demande.serviceType }}
+
+  <div class="button-group">
+    <button class="btn-afficher" (click)="toggleDemandeVisibility(i)">
+      {{ demandesVisibles[i] ? 'Cacher' : 'Afficher' }}
+    </button>
+    <button class="btn-supprimer" (click)="supprimerDemande(demande.id)">
+      Supprimer
+    </button>
+  </div>
+
+  <div *ngIf="demandesVisibles[i]" style="margin-left: 20px; margin-top: 5px;">
+    Email: {{ demande.email }}<br/>
+    Téléphone: {{ demande.telephone }}<br/>
+    Adresse: {{ demande.adresse }}<br/>
+    Paiement: {{ demande.paiement }}<br/>
+    Urgence: {{ demande.urgence }}<br/>
+    Message: {{ demande.message || '(pas de message)' }}
+  </div>
+  <hr/>
+</li>
+
+</ul>
+
+<ng-template #noDemandes>
+  <p>Aucune demande trouvée.</p>
+</ng-template>
+
+<app-footer></app-footer>

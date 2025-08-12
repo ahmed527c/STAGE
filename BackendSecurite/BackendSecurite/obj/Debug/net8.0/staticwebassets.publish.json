@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "P6YVqBNAVNX2IvTCKMPnswZJvxtnznwi6P+mq+D3Bxg=",
+  "Source": "BackendSecurite",
+  "BasePath": "_content/BackendSecurite",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

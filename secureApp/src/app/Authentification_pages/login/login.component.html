@@ -1,0 +1,15 @@
+<div class="login-background">
+  <div class="login-container">
+    <h2>Connexion</h2>
+    <form (ngSubmit)="onSubmit()">
+      <input [(ngModel)]="email" name="email" required placeholder="Email" type="email" />
+      <input [(ngModel)]="password" name="password" required placeholder="Mot de passe" type="password" />
+      <button type="submit">Se connecter</button>
+    </form>
+    <p *ngIf="erreur">{{ erreur }}</p>
+    <p class="register-link">
+      Vous n'avez pas de compte ?
+      <a routerLink="/register">Créer un compte</a>
+    </p>
+  </div>
+</div>

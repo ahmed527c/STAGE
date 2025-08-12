@@ -1,0 +1,13 @@
+# Angular
+secureApp/node_modules/
+secureApp/dist/
+secureApp/.angular/
+
+# .NET
+BackendSecurite/bin/
+BackendSecurite/obj/
+*.user
+*.vs
+
+# Autres
+.env

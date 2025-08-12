@@ -1,0 +1,65 @@
+<div class="background-container">
+  <ng-container *ngIf="currentSlide.type === 'image'">
+    <div class="background-image" [ngStyle]="{'background-image': 'url(' + currentSlide.src + ')'}"></div>
+  </ng-container>
+
+  <ng-container *ngIf="currentSlide.type === 'video'">
+    <video autoplay muted loop class="background-video">
+      <source [src]="currentSlide.src" type="video/mp4" />
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+  </ng-container>
+
+<div class="content-overlay">
+  <h1>{{ currentSlide.title }}</h1>
+  <p *ngIf="currentSlide.description">{{ currentSlide.description }}</p>
+
+  <button routerLink="/produits">
+    <span class="text">{{ currentSlide.btnText }}</span>
+    <span class="arrow">→</span>
+  </button>
+</div>
+
+
+  <button class="switch-btn" (click)="switchSlide()">⮞</button>
+</div>
+
+
+<!-- SECTION OF CARDS -->
+
+
+<section class="help-support">
+  <h2>Votre Sécurité, Notre Mission</h2>
+
+<br>
+  <div class="cards-container">
+    <!-- Card 1 -->
+    <div class="support-card" style="background-image: url('assets/Cartes/Carte1.png');">
+      <div class="card-overlay">
+        <h3>Services fiables et rapides</h3>
+        <a routerLink="/services" class="support-btn">En savoir plus</a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="support-card" style="background-image: url('assets/Cartes/Carte2.png');">
+      <div class="card-overlay">
+        <h3>
+          Une Gamme Complète
+        </h3>
+        <a routerLink="/produits" class="support-btn">Explorer</a>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="support-card" style="background-image: url('assets/Cartes/Carte3.jpg');">
+      <div class="card-overlay">
+        <h3>Besoin d'aide ?</h3>
+        <a routerLink="/contact" class="support-btn">Contacter notre équipe</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+

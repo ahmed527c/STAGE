@@ -1,0 +1,201 @@
+.background-container {
+  position: relative;
+  width: auto;
+  height: 500px;
+  overflow: hidden;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.background-image,
+.background-video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  background-position: center center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.content-overlay {
+  position: absolute;
+  top: 30%;
+  left: 40px;
+  z-index: 1;
+  max-width: 400px;
+ 
+  padding: 25px 30px;
+  border-radius: 12px;
+}
+
+.content-overlay h1 {
+  margin: 0 0 12px 0;
+  font-size: 3rem;
+  color:white
+}
+
+.content-overlay p {
+  margin: 0 0 18px 0;
+  font-weight: 300;
+}
+.content-overlay button {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 22px;
+  min-width: 180px;
+  background: #fff;
+  color: #1f2937;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+button .text, button .arrow {
+  position: absolute;
+  transition: 0.3s ease;
+
+}
+
+button .arrow {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+button:hover .text {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+button:hover .arrow {
+  opacity: 1;
+  transform: scale(1);
+  font-size: 2rem;
+}
+
+
+
+.switch-btn {
+  position: absolute;
+  bottom: 180px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f0f0f0; 
+  color: #333;               
+  font-size: 24px;
+  cursor: pointer;
+ 
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.switch-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
+
+.help-support {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+}
+
+.help-support h2 {
+  font-size: 40px;
+  font-weight: 600;
+font-family: 'Poppins', sans-serif;
+  margin-bottom: 40px;
+  color: #222;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+.help-support h2::after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 3px;
+  background-color: #005bb5;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+.help-support p {
+  font-size: 1.1rem;
+  color: #000000;
+  
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.support-card {
+  position: relative;
+  width: 360px;
+  height: 520px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+
+.card-overlay h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #1f2937;
+  font-family:Georgia, 'Times New Roman', Times, serif
+ }
+
+.support-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid blue;
+  border-radius: 25px;
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.support-btn:hover {
+  background: #2563eb;
+  color: #ffffff;
+}

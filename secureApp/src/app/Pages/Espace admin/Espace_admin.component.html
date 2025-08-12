@@ -1,0 +1,85 @@
+<app-navbar></app-navbar>
+
+<h1 class="S">Gestion Produits </h1>
+
+<form (ngSubmit)="onSubmit()" #formProduit="ngForm" novalidate>
+  <h2>Nouveau produit</h2>
+
+  <div class="form-group">
+    <label for="titre">Titre</label>
+    <input id="titre" type="text" placeholder="Titre" [(ngModel)]="produit.titre" name="titre" required #titreInput="ngModel" />
+  </div>
+
+  <div class="form-group">
+    <label for="type">Type</label>
+    <input id="type" type="text" placeholder="Type" [(ngModel)]="produit.type" name="type" required #typeInput="ngModel" />
+  </div>
+
+  <div class="form-group">
+    <label for="prixAvant">Prix avant</label>
+    <input id="prixAvant" type="number" placeholder="Prix avant" [(ngModel)]="produit.prixAvant" name="prixAvant" min="0" #prixAvantInput="ngModel" />
+  </div>
+
+  <div class="form-group">
+    <label for="prixApres">Prix après</label>
+    <input id="prixApres" type="number" placeholder="Prix après" [(ngModel)]="produit.prixApres" name="prixApres" required min="0" #prixApresInput="ngModel" />
+  </div>
+
+  <div class="form-group">
+    <label for="quantite">Quantité</label>
+    <input id="quantite" type="number" placeholder="Quantité" [(ngModel)]="produit.quantite" name="quantite" required min="1" #quantiteInput="ngModel" />
+  </div>
+
+
+  <div class="form-group">
+    <label for="image">Image (URL)</label>
+    <input id="image" type="text" placeholder="Image (URL)" [(ngModel)]="produit.image" name="image" required #imageInput="ngModel" />
+  </div>
+
+  <button type="submit" [disabled]="formProduit.invalid">Ajouter produit</button>
+</form>
+
+<p *ngIf="message" class="success">{{ message }}</p>
+<p *ngIf="erreur" class="error">{{ erreur }}</p>
+
+<hr />
+
+<h2>Liste des produits existants</h2>
+
+<table class="products-table">
+  <thead>
+    <tr>
+      <th>Titre</th>
+      <th>ID</th>
+      <th>Type</th>
+      <th>Prix avant</th>
+      <th>Prix après</th>
+      <th>Quantité</th>
+      <th>Image</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let art of articles; let i = index">
+      <td><input [(ngModel)]="art.titre" [name]="'titre' + i" class="input-table" /></td>
+      <td class="id-cell">{{ art.id }}</td>
+      <td><input [(ngModel)]="art.type" [name]="'type' + i" class="input-table" /></td>
+      <td><input [(ngModel)]="art.prixAvant" [name]="'prixAvant' + i" type="number" class="input-table" /></td>
+      <td><input [(ngModel)]="art.prixApres" [name]="'prixApres' + i" type="number" class="input-table" /></td>
+      <td><input [(ngModel)]="art.quantite" [name]="'quantite' + i" type="number" class="input-table" /></td>
+      <td>
+<input
+  [ngModel]="art.image.split('/').pop()"
+  (ngModelChange)="art.image = 'assets/produit_images/' + $event"
+  [name]="'image' + i"
+  class="input-table"
+/>        <br />
+        <img [src]="art.image" alt="{{ art.titre }}" class="mini-image" />
+      </td>
+      <td>
+        <button (click)="modifier(art)" class="btn btn-modifier">Modif</button>
+        <button (click)="supprimerProduit(art.id)" class="btn btn-supprimer">Supp</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

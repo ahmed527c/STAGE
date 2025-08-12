@@ -1,0 +1,60 @@
+<app-navbar></app-navbar>
+
+  <h2 class="S">Nos Produits</h2>
+
+  <!-- ✅ Liste déroulante des catégories -->
+  <div class="select-filtre">
+    <label for="filtreCategorie">Catégorie :</label>
+    <select id="filtreCategorie" [(ngModel)]="filtreActif">
+      <option value="tous">Tous</option>
+      <option value="camera">caméras</option>
+      <option value="alarm">Alarmes</option>
+      <option value="Accessories">Accessories</option>
+      <option value="pack">Packs</option>
+    </select>
+   <!-- Barre de recherche -->
+<div class="search-container">
+  <input
+    type="text"
+    [(ngModel)]="rechercheTexte"
+    placeholder="Rechercher un produit..."
+  />
+  <button aria-label="Rechercher">
+    <i class="fas fa-search"></i>
+  </button>
+</div>
+
+    
+  </div>
+ 
+  <div class="container">
+    <div class="carte" *ngFor="let article of articlesFiltres">
+      <img [src]="article.image" alt="{{ article.titre }}" />
+      <h3>{{ article.titre }}</h3>
+      <p class="type">{{ article.type }}</p>
+
+      <div class="prix">
+        <span class="avant" *ngIf="article.prixAvant">{{ article.prixAvant }}$</span>
+        <span class="apres">{{ article.prixApres }}$</span>
+      </div>
+
+      <p class="quantite">Stock : {{ article.quantite }}</p>
+
+      <div class="achat-zone">
+        <input type="number"
+               [(ngModel)]="article.quantiteAchetee"
+               [max]="article.quantite"
+               min="1"
+               class="input-quantite" />
+
+        <button class="buy-btn"
+                [disabled]="article.quantiteAchetee > article.quantite || article.quantiteAchetee < 1"
+                (click)="acheter(article)">
+          Acheter
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+<app-footer></app-footer>

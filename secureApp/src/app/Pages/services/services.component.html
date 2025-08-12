@@ -1,0 +1,69 @@
+<app-navbar></app-navbar>
+
+<section class="services-section">
+  <h2>Nos Services</h2>
+
+  <div class="services-row" >
+    <div
+      class="service-card"
+      *ngFor="let s of services"
+      [style.background-image]="'url(' + s.image + ')'"
+      (click)="selectService(s.key)"
+    >
+      <div class="overlay"></div>
+      <h3>{{ s.title }}</h3>
+    </div>
+  </div>
+</section>
+
+<div class="modal-overlay" *ngIf="selectedService">
+
+  <div class="modal-content">
+    <button class="close-btn" (click)="cancel()">✖</button>
+    <h3>Demande pour le service : {{ selectedService | titlecase }}</h3>
+
+    <form #serviceForm="ngForm" (ngSubmit)="sendRequest(serviceForm)">
+      <label>Nom complet :
+        <input type="text" name="name" ngModel required />
+      </label>
+
+      <label>Email :
+        <input type="email" name="email" ngModel required />
+      </label>
+         <label>Telephone :
+<input type="text" name="tel" ngModel required />
+      </label>
+
+
+      <label>Adresse de {{ selectedService | titlecase }} :
+        <input type="text" name="address" ngModel required />
+      </label>
+
+      <label>Mode de paiement :
+        <select name="payment" ngModel required>
+          <option value="" disabled selected>-- Choisir --</option>
+          <option value="carte">Carte bancaire</option>
+          <option value="espece">Espèce à la livraison</option>
+          <option value="paypal">PayPal</option>
+        </select>
+      </label>
+
+      <label>Type de demande :
+        <select name="urgency" ngModel required>
+          <option value="" disabled selected>-- Choisir --</option>
+          <option value="normale">Normale</option>
+          <option value="urgente">Urgente</option>
+          <option value="programmée">Programmée</option>
+        </select>
+      </label>
+
+      <label>Détails supplémentaires :
+        <textarea name="message" ngModel  ></textarea>
+      </label>
+
+      <button type="submit" [disabled]="!serviceForm.valid">Envoyer</button>
+    </form>
+  </div>
+</div>
+
+<app-footer></app-footer>

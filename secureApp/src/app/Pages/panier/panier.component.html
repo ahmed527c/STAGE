@@ -1,0 +1,42 @@
+<app-navbar></app-navbar>
+
+<div class="panier-container">
+  <h2>Mon Panier</h2>
+
+  <div *ngIf="panier.length === 0" class="alert alert-info">
+    Votre panier est vide.
+  </div>
+
+  <table *ngIf="panier.length > 0" class="table table-striped">
+    <thead>
+      <tr>
+        <th>Produit</th>
+        <th></th>
+        <th>Quantité</th>
+        <th>Prix Unitaire</th>
+        <th>Total</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of panier">
+        <td>{{ item.article?.titre }}</td>
+ <img [src]="item.article?.image"  class="mini-image" />        <td>{{ item.quantite }}</td>
+        <td>{{ item.article?.prixApres | currency:'$' }}</td>
+        <td>{{ (item.article?.prixApres || 0) * item.quantite | currency:'$' }}</td>
+        <td>
+          <button class="btn btn-danger btn-sm" (click)="supprimerArticle(item)">Supprimer</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="panier.length > 0" class="panier-total mt-3">
+    <strong>Total : {{ total | currency:'$' }}</strong>
+  </div>
+
+<div *ngIf="panier.length > 0" class="actions mt-4 text-center">
+  <button class="btn btn-primary btn-lg" (click)="confirmerAchat()">Confirmer l'achat</button>
+</div>
+
+</div>
